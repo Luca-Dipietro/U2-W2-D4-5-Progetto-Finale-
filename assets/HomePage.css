@@ -1,0 +1,59 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+.navbar-collapse {
+  justify-content: space-between;
+}
+
+header {
+  .navbar-collapse {
+    justify-content: space-between;
+  }
+  .bi {
+    vertical-align: middle;
+    color: white;
+    font-size: 1.2em;
+    margin-inline: 0.5em;
+  }
+  .dropdown-menu {
+    &[data-bs-popper] {
+      top: 100%;
+      left: -100px;
+    }
+  }
+  .btn {
+    --bs-btn-padding-x: 1.2rem;
+    --bs-btn-padding-y: 0.2rem;
+    border-radius: 0px;
+  }
+}
+
+.row-film {
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+}
+
+footer {
+  margin-top: 8em;
+  .bi {
+    font-size: 1.8em;
+    margin-inline: 0.2em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .footer-text {
+    color: rgba(255, 255, 255, 0.5);
+    padding-block: 0.5em;
+    font-size: 0.8em;
+  }
+  span {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8em;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.5em;
+  }
+  p {
+    font-size: 0.6em;
+    color: rgba(255, 255, 255, 0.5);
+  }
+}
